@@ -8,6 +8,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+                <!--<a class="navbar-left" href="/"><img src="{{ asset("images/logo.png") }}" alt="Self-Nail">Self-Nail</a>-->
                 <a class="navbar-brand" href="/">Self-Nail</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

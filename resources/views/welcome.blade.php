@@ -2,8 +2,29 @@
 
 @section('content')
     @if (Auth::check())
-        <?php $user = Auth::user(); ?>
-        {{ $user->name }}
+        <h1>デザイン一覧</h1>
+        <!--    <?php $user = Auth::user(); ?>
+                {{ $user->name }} -->
+        <div class="design1">
+            <figure class="image1">
+                <img src="{{ asset("images/sample1.png") }}" alt="イメージ画像">
+            </figure>
+            <div class="content1">
+                <h2><a href="/designs/1">デザイン1タイトル</a></h2>
+                <p>デザインの説明</p>
+                <p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
+            </div>
+        </div>
+        <div class="design2">
+            <figure class="image2">
+                <img src="{{ asset("images/sample2.png") }}" alt="イメージ画像">
+            </figure>
+            <div class="content2">
+                <h2><a href="/">デザイン2タイトル</a></h2>
+                <p>デザインの説明</p>
+                <p>いいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいい</p>
+            </div>
+        </div>
     @else
         <div class="center jumbotron">
             <div class="text-center">

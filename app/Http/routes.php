@@ -23,3 +23,13 @@ Route::post('signup', 'Auth\AuthController@postRegister')->name('signup.post');
 Route::get('login', 'Auth\AuthController@getLogin')->name('login.get');
 Route::post('login', 'Auth\AuthController@postLogin')->name('login.post');
 Route::get('logout', 'Auth\AuthController@getLogout')->name('logout.get');
+
+// デザイン詳細用
+Route::get('/designs/1', function () {
+    return view('design1');
+});
+
+// デザイン手順用
+Route::get('/process/1', function () {
+    return view('process1');
+});
