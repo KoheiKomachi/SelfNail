@@ -29,7 +29,7 @@ div.messages p {
 }
 
 body > .container {
-  padding: 60px 15px 0;
+  padding: 0px 15px 0;
 }
 .container .text-muted {
   margin: 20px 0;
@@ -67,6 +67,10 @@ body > .container {
     height: 200px;
     float: right;
     margin-bottom: 100px;
+}
+
+.design-title {
+    border-bottom: 1px solid black;
 }
 
 /* デザイン詳細ページ向け */
@@ -180,8 +184,23 @@ table.table-1 td {
     margin-right: 50px;
 }
 
-.p-content1 {
-  width: 40%;
+.p1-content1 {
+  width: 50%;
+  height: auto;
+  float: left;
+  margin-bottom: 30px;  
+}
+
+.p1-image2 img{
+    width: 25%;
+    height: 150px;
+    float: left;
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+
+.p1-content2 {
+  width: 50%;
   height: auto;
   float: left;
   margin-bottom: 30px;  

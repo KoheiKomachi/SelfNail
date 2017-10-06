@@ -33,3 +33,8 @@ Route::get('/design/1', function () {
 Route::get('/process/1', function () {
     return view('process1');
 });
+
+//Comment投稿用
+Route::group(['middleware' => 'auth'], function () {
+    Route::resource('comments', 'CommentsController', ['only' => ['store']]);
+});

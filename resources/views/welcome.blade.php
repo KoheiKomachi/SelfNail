@@ -7,9 +7,8 @@
 ?>
 
     @if (Auth::check())
-        <h1>デザイン一覧</h1>
+        <h1><span class="design-title">デザイン一覧</span></h1>
         <?php $user = Auth::user(); ?> 
-        {{ $user->name }}
         <div class="design1">
             <figure class="image1">
                 <img src="{{ asset("images/sample1.png") }}" alt="イメージ画像">
