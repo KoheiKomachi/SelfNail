@@ -88,6 +88,7 @@ body > .container {
     height: 200px;
     float: left;
     margin-bottom: 50px;
+    margin-right: 48px;
 }
 
 .image-1-2 img{
@@ -153,4 +154,35 @@ table.table-1 td {
   height: auto;
   float: right;
   margin-bottom: 50px;  
+}
+
+/* デザイン手順ページ向け */
+
+.process-1::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.process-1 h4{
+    float: right;
+    width: 55%;
+    height: 20px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.p1-image1 img{
+    width: 25%;
+    height: 150px;
+    float: left;
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+
+.p-content1 {
+  width: 40%;
+  height: auto;
+  float: left;
+  margin-bottom: 30px;  
 }

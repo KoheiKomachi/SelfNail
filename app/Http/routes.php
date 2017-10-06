@@ -25,7 +25,7 @@ Route::post('login', 'Auth\AuthController@postLogin')->name('login.post');
 Route::get('logout', 'Auth\AuthController@getLogout')->name('logout.get');
 
 // デザイン詳細用
-Route::get('/designs/1', function () {
+Route::get('/design/1', function () {
     return view('design1');
 });
 

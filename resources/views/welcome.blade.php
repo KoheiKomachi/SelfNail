@@ -1,16 +1,21 @@
 @extends('layouts.app')
 
 @section('content')
+<?php
+//$data = App\Design::where("id",1)->get() 
+/* <p>{{$data[0]["name"]}}</p> */
+?>
+
     @if (Auth::check())
         <h1>デザイン一覧</h1>
-        <!--    <?php $user = Auth::user(); ?>
-                {{ $user->name }} -->
+        <?php $user = Auth::user(); ?> 
+        {{ $user->name }}
         <div class="design1">
             <figure class="image1">
                 <img src="{{ asset("images/sample1.png") }}" alt="イメージ画像">
             </figure>
             <div class="content1">
-                <h2><a href="/designs/1">デザイン1タイトル</a></h2>
+                <h2><a href="/design/1">デザイン1タイトル</a></h2>
                 <p>デザインの説明</p>
                 <p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
             </div>
