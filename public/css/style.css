@@ -41,36 +41,40 @@ body > .container {
 }
 
 /* トップページ向け（ログイン後）*/
+.design-title {
+    border-bottom: 1px solid black;
+}
+.h1-design{
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+
 .image1 img{
     width: 40%;
     height: 200px;
     float: left;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 
 .content1 {
     width: 50%;
     height: 200px;
     float: right;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 
 .image2 img{
     width: 40%;
     height: 200px;
     float: left;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 
 .content2 {
     width: 50%;
     height: 200px;
     float: right;
-    margin-bottom: 100px;
-}
-
-.design-title {
-    border-bottom: 1px solid black;
+    margin-bottom: 30px;
 }
 
 /* デザイン詳細ページ向け */
@@ -148,16 +152,11 @@ table.table-1 td {
 }
 
 .point1 {
-  width: 50%;
   height: auto;
-  float: left;
-  margin-bottom: 50px;
 }
+
 .comment1 {
-  width: 50%;
   height: auto;
-  float: right;
-  margin-bottom: 50px;  
 }
 
 /* デザイン手順ページ向け */
@@ -187,7 +186,6 @@ table.table-1 td {
 .p1-content1 {
   width: 50%;
   height: auto;
-  float: left;
   margin-bottom: 30px;  
 }
 
@@ -204,4 +202,9 @@ table.table-1 td {
   height: auto;
   float: left;
   margin-bottom: 30px;  
+}
+
+.flex{
+    display:flex;
+    margin-bottom: 50px;  
 }

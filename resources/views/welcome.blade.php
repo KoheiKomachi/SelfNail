@@ -7,12 +7,14 @@
 ?>
 
     @if (Auth::check())
-        <h1><span class="design-title">デザイン一覧</span></h1>
+        <h1 class=h1-design>
+            <span class="design-title">デザイン一覧</span>
+        </h1>
         <?php $user = Auth::user(); ?> 
         <div class="design1">
-            <figure class="image1">
+            <div class="image1">
                 <img src="{{ asset("images/sample1.png") }}" alt="イメージ画像">
-            </figure>
+            </div>
             <div class="content1">
                 <h2><a href="/design/1">デザイン1タイトル</a></h2>
                 <p>デザインの説明</p>
