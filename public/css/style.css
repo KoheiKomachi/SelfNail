@@ -49,21 +49,30 @@ body > .container {
     margin-bottom: 50px;
 }
 
-.image1 img{
-    width: 40%;
+.image img{
     height: 200px;
+    margin-bottom: 30px;
+/*  width: 100%; 
+    height: auto;
     float: left;
     margin-bottom: 30px;
+*/
 }
 
-.content1 {
-    width: 50%;
+.content {
     height: 200px;
+    margin-bottom: 30px;
+/*
+    width: 100%;
+    height: auto;
     float: right;
     margin-bottom: 30px;
+*/
 }
-
+/*
 .image2 img{
+    height: 200px;
+    margin-bottom: 30px;
     width: 40%;
     height: 200px;
     float: left;
@@ -71,19 +80,24 @@ body > .container {
 }
 
 .content2 {
+    height: 200px;
+    margin-bottom: 30px;
     width: 50%;
     height: 200px;
     float: right;
     margin-bottom: 30px;
 }
+*/
 
 /* デザイン詳細ページ向け */
 
-.design-1::after {
+.design-detail::after {
   content: '';
   display: block;
   clear: both;
 }
+
+/*
 .image-1 img{
     width: 40%;
     height: 230px;
@@ -112,30 +126,30 @@ body > .container {
     float: right;
     margin-bottom: 50px;
 }
+*/
 
-.design-1 h4{
-    float: right;
-    width: 55%;
+.design-detail h4{
+    width: 100%;
     height: 20px;
     margin-top: 0px;
     margin-bottom: 5px;
 }
 
-.table-1 {
+.table-detail {
     border-collapse: separate;
     border-spacing: 0;
     text-align: left;
     line-height: 1.5;
     border-top: 1px solid #ccc;
     border-left: 1px solid #ccc;
-    width: 55%;
+    width: 100%;
     height: 200px;
     float: right;
     margin-bottom: 50px;
     margin-top: 5px;
 }
 
-table.table-1 th {
+table.table-detail th {
     font-weight: bold;
     vertical-align: top;
     border-right: 1px solid #ccc;
@@ -145,7 +159,7 @@ table.table-1 th {
     background: #eee;
 }
 
-table.table-1 td {
+table.table-detail td {
     vertical-align: top;
     border-right: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
@@ -159,14 +173,41 @@ table.table-1 td {
   height: auto;
 }
 
-/* デザイン手順ページ向け */
+.design-detail{
+    margin-bottom: 30px;      
+}
 
-.process-1::after {
+.flex{
+    display:flex;
+    margin-bottom: 50px;  
+}
+
+.ref-image::after {
   content: '';
   display: block;
   clear: both;
 }
 
+/* デザイン手順ページ向け */
+
+.process::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.post::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.post{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*
 .process-1 h4{
     float: right;
     width: 55%;
@@ -203,8 +244,4 @@ table.table-1 td {
   float: left;
   margin-bottom: 30px;  
 }
-
-.flex{
-    display:flex;
-    margin-bottom: 50px;  
-}
+*/

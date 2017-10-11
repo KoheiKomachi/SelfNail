@@ -12,20 +12,20 @@
         </h1>
         <?php $user = Auth::user(); ?> 
         <div class="design1">
-            <div class="image1">
-                <img src="{{ asset("images/sample1.png") }}" alt="イメージ画像">
+            <div class="col-sm-5 col-md-5 col-lg-5 image">
+                <img src="{{ asset("images/sample2.png") }}" alt="イメージ画像" class="img-responsive">
             </div>
-            <div class="content1">
+            <div class="col-sm-offset-1 col-sm-6 content">
                 <h2><a href="/design/1">デザイン1タイトル</a></h2>
                 <p>デザインの説明</p>
                 <p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
             </div>
         </div>
         <div class="design2">
-            <figure class="image2">
-                <img src="{{ asset("images/sample2.png") }}" alt="イメージ画像">
-            </figure>
-            <div class="content2">
+            <div class="col-sm-5 col-md-5 col-lg 5 image">
+                <img src="{{ asset("images/sample2.png") }}" alt="イメージ画像" class="img-responsive">
+            </div>
+            <div class="col-sm-offset-1 col-sm-6 content">
                 <h2><a href="/">デザイン2タイトル</a></h2>
                 <p>デザインの説明</p>
                 <p>いいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいい</p>
@@ -39,7 +39,7 @@
             </div>
         </div>
         <div class="image">
-            <img src="{{ asset("images/sample3.png") }}" alt="イメージ画像">
+            <img src="{{ asset("images/sample3.png") }}" alt="イメージ画像" class="img-responsive">
         </div>
         <div class="messages">
             <h1></h1>
