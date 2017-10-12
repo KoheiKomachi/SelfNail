@@ -38,3 +38,6 @@ Route::get('/process/1', function () {
 Route::group(['middleware' => 'auth'], function () {
     Route::resource('comments', 'CommentsController', ['only' => ['store']]);
 });
+
+//Design一覧作成・編集・削除用
+Route::resource('designlist', 'DesignlistController');
